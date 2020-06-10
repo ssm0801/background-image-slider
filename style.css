@@ -1,0 +1,40 @@
+body{
+    background-color: #F2FDFF;
+}
+
+.container{
+    background: url('./img/back0.jpeg');
+    background-size: cover;
+    margin: 4% auto;
+    width: 60em;
+    height: 40em;
+    border: 9px solid #3E92CC;
+    border-radius: 10px;
+}
+
+.fa{
+    color: white;
+    background-color: #3E92CC;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 3.5px solid #3E92CC;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.fa:hover{
+    color: #3E92CC;
+    background-color: white;
+}
+
+.fa-caret-left{
+    position: relative;
+    top: 300px;
+    left: -26px;
+}
+
+.fa-caret-right{
+    position: relative;
+    top: 300px;
+    left: 895px;
+}
